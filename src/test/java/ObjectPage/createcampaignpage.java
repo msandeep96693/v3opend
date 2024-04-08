@@ -83,6 +83,10 @@ public class createcampaignpage  extends CommonBase {
 		campaignName.sendKeys("Create campaign");
 	}
 	
+	public void campaigngroupDropdown() {
+		Select sel1 = new Select(campaignGroupDrop);
+		sel1.selectByVisibleText("Default ");
+	}
 	
 	
 }
